@@ -6,14 +6,15 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.2fr auto;
-    grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5sfr;
+    grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5fr;
 }
 .photo{
     width: 94px;
     height: 300px;
-    
+    grid-row: 2/6;
 }
 .works{
     text-decoration: none;
     grid-column: 1/-1;
+    word-spacing: 200px;
 }
