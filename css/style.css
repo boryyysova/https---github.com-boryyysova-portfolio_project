@@ -18,3 +18,9 @@
     grid-column: 1/-1;
     word-spacing: 200px;
 }
+.about_me{
+    grid-row: 2/3;
+}
+.skills{
+    grid-row: 2/-1;
+}
