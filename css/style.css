@@ -12,17 +12,29 @@
     width: 94px;
     height: 300px;
     grid-row: 2/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .works{
     text-decoration: none;
     grid-column: 1/-1;
     word-spacing: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about_me{
     grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skills{
     grid-row: 2/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .works{
     display: flex;
