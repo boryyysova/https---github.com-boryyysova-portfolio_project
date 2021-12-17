@@ -24,3 +24,8 @@
 .skills{
     grid-row: 2/-1;
 }
+.works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
