@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.2fr auto;
     grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5fr;
+    background: black;
 }
 .photo{
     width: 94px;
@@ -35,9 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: C4C4C4;
 }
 .works{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: C2C5AA;
 }
