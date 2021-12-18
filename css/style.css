@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid ;
+    outline: 1px solid  ;
 }
 .container{
     width: 100%;
@@ -24,23 +24,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A68A64;
 }
 .about_me{
     grid-row: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: blanchedalmond;
 }
 .skills{
     grid-row: 2/-1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: C4C4C4;
+    background: #A68A64;
 }
-.works{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: C2C5AA;
+
+.aestetick_block_2{
+    background:#A68A64 ;
 }
