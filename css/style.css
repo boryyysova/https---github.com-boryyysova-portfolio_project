@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid  ;
+    outline: 1px solid white ;
 }
 .container{
     width: 100%;
@@ -10,8 +10,8 @@
     background: black;
 }
 .photo{
-    width: 94px;
-    height: 300px;
+    width: 188px;
+    height: 600px;
     grid-row: 2/6;
     display: flex;
     justify-content: center;
@@ -34,16 +34,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blanchedalmond;
+    color: #A68A64;
 }
 .skills{
     grid-row: 2/-1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #A68A64;
+    background: #dccca9;
+    width: 72px;
 }
 
 .aestetick_block_2{
     background:#A68A64 ;
+    width: 150px;
+    height: 70px;
 }
+.text{
+  
+    background: ;
+}
+.css{
+    height: 70PX;
+    background:#A68A64 ;
+}
+.skills_2{
+    grid-row: 2/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dccca9;
+    width: 5px; 
+    font-size: 20px;
+    margin-top: 350px;
+}
+
+.text_2{
+    margin-left: 170px;
+    width: 60%;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color:#A68A64;
