@@ -8,7 +8,7 @@ outli*{
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.2fr auto;
     grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5fr;
-    background: black;
+    background: #0b090a;
    
 }
 .photo{
@@ -29,44 +29,43 @@ outli*{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #A68A64;
-    border-bottom: 3px solid #A68A64;
+    color: #FFE6A7;
+    border-bottom: 3px solid #660708;
 }
 .about_me{
     grid-row: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #A68A64;
+    color: #FFE6A7;
 }
 .skills{
     grid-row: 2/-1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dccca9;
+    background: #660708;
     width: 72px;
 }
 
 .aestetick_block_2{
-    background:#A68A64 ;
+    background:#6f1d1b ;
     width: 150px;
     height: 70px;
 }
 .text{
   
-    background: #090f18;
+    background: #bb9457;
 }
 .block_{
     height: 70PX;
-    background:#A68A64 ;
+    background:#6f1d1b ;
 }
 .skills_2{
     grid-row: 2/-1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dccca9;
     width: 5px; 
     font-size: 20px;
     margin-top: 350px;
@@ -84,7 +83,7 @@ outli*{
     color:#A68A64;
 }
 .block_with_skills{
-
+    margin-top:30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;;
@@ -96,25 +95,25 @@ outli*{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: #656D4A;
+    background: #432818;
 }
 .pug{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    background: #414833;
+    background: #FFE6A7;
 }
 .html{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    background: #414833;   
+    background: #FFE6A7;   
 }
 .scss{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: #656D4A;
+    background: #432818;
 
 }
 .block_inst{
@@ -133,5 +132,5 @@ outli*{
     background: #090f18;
 }
 .block_aestetick{
-   background: #090f18; 
+   background: #bb9457; 
 }
