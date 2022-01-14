@@ -1,13 +1,15 @@
-*{
+outli*{
   
 }
 .container{
+    outline: 1px solid #dccca9;
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.2fr auto;
     grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5fr;
     background: black;
+   
 }
 .photo{
     width: 188px;
@@ -28,6 +30,7 @@
     justify-content: center;
     align-items: center;
     color: #A68A64;
+    border-bottom: 3px solid #A68A64;
 }
 .about_me{
     grid-row: 2/3;
@@ -52,7 +55,7 @@
 }
 .text{
   
-    background: ;
+    background: #090f18;
 }
 .block_{
     height: 70PX;
@@ -81,10 +84,10 @@
     color:#A68A64;
 }
 .block_with_skills{
-    background: url(../img/me_1.jpg);
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;;
     align-items: center;
     
 }
@@ -115,4 +118,20 @@
 
 }
 .block_inst{
+    display: flex;
     color: burlywood;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_title{
+    width: 50px;
+}
+.block_inst{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background: #090f18;
+}
+.block_aestetick{
+   background: #090f18; 
+}
