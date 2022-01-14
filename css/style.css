@@ -8,10 +8,19 @@ outli*{
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.2fr auto;
     grid-template-rows: 1fr 2fr 100px 70px 2fr 0.5fr;
-    background: #0b090a;
+    background: #ff5fff;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Permanent Marker', cursive;
    
 }
 .photo{
+    margin-top: 150px;
+    margin-left: 45px;
+    margin-right: 49px;
     width: 188px;
     height: 600px;
     grid-row: 2/6;
@@ -20,6 +29,7 @@ outli*{
     align-items: center;
 }
 .works{
+    font-size: 25px;
     text-decoration: none;
     grid-column: 1/-1;
     word-spacing: 200px;
@@ -44,22 +54,22 @@ outli*{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #660708;
+    background: #FF77FF;
     width: 72px;
 }
 
 .aestetick_block_2{
-    background:#6f1d1b ;
+    background:#FF8EFF ;
     width: 150px;
     height: 70px;
 }
 .text{
   
-    background: #bb9457;
+    background: #FF99FF;
 }
 .block_{
     height: 70PX;
-    background:#6f1d1b ;
+    background:#FF8EFF ;
 }
 .skills_2{
     grid-row: 2/-1;
@@ -79,7 +89,7 @@ outli*{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 25px;
     color:#A68A64;
 }
 .block_with_skills{
@@ -95,25 +105,45 @@ outli*{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: #432818;
+    background: #FFA5FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #ff5fff;
+    font-size: 40px;
 }
 .pug{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    background: #FFE6A7;
+    background: #FFDDFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #ff5fff;
+    font-size: 40px;
 }
 .html{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    background: #FFE6A7;   
+    background: #FFBBFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #ff5fff;
+    font-size: 40px;   
 }
 .scss{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: #432818;
+    background: #FFA5FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #ff5fff;
+    font-size: 40px;
 
 }
 .block_inst{
@@ -132,5 +162,8 @@ outli*{
     background: #090f18;
 }
 .block_aestetick{
-   background: #bb9457; 
+   background: #FF99FF; 
+}
+.title_abs{
+    font-size: 50px;
 }
