@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid white ;
+  
 }
 .container{
     width: 100%;
@@ -54,7 +54,7 @@
   
     background: ;
 }
-.css{
+.block_{
     height: 70PX;
     background:#A68A64 ;
 }
@@ -79,3 +79,40 @@
     align-items: center;
     font-size: 22px;
     color:#A68A64;
+}
+.block_with_skills{
+    background: url(../img/me_1.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.css{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #656D4A;
+}
+.pug{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #414833;
+}
+.html{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #414833;   
+}
+.scss{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #656D4A;
+
+}
+.block_inst{
+    color: burlywood;
