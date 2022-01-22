@@ -1,0 +1,21 @@
+.container{
+    outline: 1px solid #dccca9;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background: #ff5fff;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Permanent Marker', cursive;
+   
+}
+.enter_your_email{
+    width: 550px;
+    height:420px;
+    border-radius: 5%;
+    background: #FF77FF;
+    border: ;
+}

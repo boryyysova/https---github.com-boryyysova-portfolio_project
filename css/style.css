@@ -20,7 +20,7 @@ font-family: 'Permanent Marker', cursive;
 .photo{
     margin-top: 150px;
     margin-left: 45px;
-    margin-right: 49px;
+    margin-right: 70px;
     width: 188px;
     height: 600px;
     grid-row: 2/6;
@@ -40,7 +40,7 @@ font-family: 'Permanent Marker', cursive;
     justify-content: center;
     align-items: center;
     color: #FFE6A7;
-    border-bottom: 3px solid #660708;
+    border-bottom: 3px solid #FEBCFD;
 }
 .about_me{
     grid-row: 2/3;
@@ -48,6 +48,8 @@ font-family: 'Permanent Marker', cursive;
     justify-content: center;
     align-items: center;
     color: #FFE6A7;
+    font-size: 25px;
+    margin-left: -5px;
 }
 .skills{
     grid-row: 2/-1;
@@ -56,6 +58,7 @@ font-family: 'Permanent Marker', cursive;
     align-items: center;
     background: #FF77FF;
     width: 72px;
+    color: #FEBCFD;
 }
 
 .aestetick_block_2{
@@ -65,7 +68,7 @@ font-family: 'Permanent Marker', cursive;
 }
 .text{
   
-    background: #FF99FF;
+    background: #FED2FD;
 }
 .block_{
     height: 70PX;
@@ -162,7 +165,7 @@ font-family: 'Permanent Marker', cursive;
     background: #090f18;
 }
 .block_aestetick{
-   background: #FF99FF; 
+   background: #FED2FD; 
 }
 .title_abs{
     font-size: 50px;
