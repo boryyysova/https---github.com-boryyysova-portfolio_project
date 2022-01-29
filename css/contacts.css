@@ -1,0 +1,65 @@
+body{
+    background: #7E007E;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 180px;
+    background: #7E007E;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Permanent Marker', cursive;
+  
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #dccca9;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background: #7E007E;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+.enter_your_email{
+    width: 750px;
+    height:420px;
+    border-radius: 30px; 
+    border: 2px solid #ff5fff;
+    justify-content: flex-start;
+    margin-left: -500px;
+}
+.email_text{
+    display: flex;
+    color: #C900C9;
+    font-size: 27px;
+    justify-content: center;
+    align-items: flex-start;    
+    margin-top:20px;
+    margin-left:15px;
+}
+.logos{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: -250px;
+}
+.logo_img{
+    width: 80px;
+    height: 80px;
+    margin-top: -250px;
+    margin-left:320px;
+    justify-content: center;
+}
